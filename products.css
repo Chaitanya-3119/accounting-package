@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('./assests/stacked-steps-haikei.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #b6c8f8;
+    color: #000;
+    text-align: center;
+    padding: 1em;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.head {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+    margin-left: 120px;
+}
+.head a{
+    text-decoration: none;
+    color: #333;
+}
+.head button{
+    border-radius: 20px;
+    width: 100px;
+    background-color: #9E3FFD;
+    border: none;    
+    height: 45px;
+
+}
+.head button :hover{
+    background-color:#fff ;
+}
+.head section{
+    font-weight: 10px;
+}
+.head section :hover{
+    color:#9E3FFD ;
+}
+.container#blur.active{
+    filter: blur(2px);
+    pointer-events: none;
+    user-select: none;
+}
+table{
+    width: 100%;
+    margin-top: 50px;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+}
+tr{
+    height: 40px;
+}
+tr:nth-child(odd) {
+    background-color: #d0abf5;
+}
+tr:nth-child(even){
+    background-color: #c2c1c1;
+}
+main button{
+    border-radius: 20px;
+    width: 100px;
+    background-color: #b582e7;
+    border: none;    
+    height: 45px;
+    margin-left: 45%;
+    margin-top: 50px;
+    background-image: url('./assests/layered-waves-haikei.svg');
+}
+label,input{
+    margin-left:35%;
+}
+#popup{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0,0,0,.30);
+    background-image: url(./assests/stacked-steps-haikei.svg);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#popup.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}

@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+} */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.ser button {
+    height: 40px;
+    margin-left: 50px;
+    margin-right: 30px;
+    padding: 20%;
+}
+main {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+    margin-left: 120px;
+}
+main a{
+    text-decoration: none;
+    color: #333;
+}
+main button{
+    border-radius: 20px;
+    width: 100px;
+    background-color: #9E3FFD;
+    border: none;    
+    height: 45px;
+
+}
+main button :hover{
+    background-color:#fff ;
+}
+main section{
+    font-weight: 10px;
+}
+main section :hover{
+    color:#9E3FFD ;
+}
+article{
+    display: flex;
+    background-image: url('./assests/wave-haikei\ \(2\).svg');
+    /* background-color:#000 ; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+}
+article h1{
+    font-size: 80px;
+    margin-left: 70px;
+}
+article button{
+    border-radius: 20px;
+    width: 100px;
+    background-color: #9E3FFD;
+    border: none;
+    height: 45px;
+    margin-left: 90px;
+}
+article button :hover{
+    background-color: #fff;
+}
+.services{
+    height: 250px;
+    width: 100%;
+    background-color: #e0c7f9;
+    margin-top: 0px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.services{
+    background-color: #b6c8f8;
+}
+.services h3{
+    color: #9E3FFD;
+}
+.services p{
+    font-size: 40px;
+}
+.login button{
+    height: 70px;
+    margin-left: 50px;
+    margin-right: 30px;
+    
+}
+.services button{
+    border-radius: 50px;
+    width: 100px;
+    background-color: #9E3FFD;
+    border: none;
+}
+.users{
+    height: 350px;
+    /* background-color: #333; */
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+.users h1{
+    font-size: 50px;
+}
+.text{
+    display: flex;
+    color: #000;
+    font-size: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 80px;
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: #b6c8f8;
+    text-align: center;
+    align-items: center;   
+}
+footer h3{
+    color: #9E3FFD;
+}
+/* footer .img{
+    
+} */

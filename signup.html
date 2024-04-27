@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+    <script src="/js/validation.js" defer></script>
+</head>
+<body style="background-color: #D2DAFF;">
+    
+    <h1 style="margin-left: 45%; font-size: 50px; color:black">Signup</h1>
+    
+    <form action="process-signup.php" method="post" id="signup" novalidate>
+        <div class="container" style="height: 650px;width: 40%;background-color:#B1B2FF ;margin-left: 30%; padding: 40px; border-radius: 20px; color: #000;">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" style="background-color:#D2DAFF;">
+            </div>
+            
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" style="background-color:#D2DAFF;">
+            </div>
+            
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" style="background-color:#D2DAFF;">
+            </div>
+            
+            <div>
+                <label for="password_confirmation">Repeat Password</label>
+                <input type="password" id="password_confirmation" name="password_confirmation" style="background-color:#D2DAFF;">
+            </div>
+            
+            <div>
+                <label for="contact">Contact</label>
+                <input type="text" id="contact" name="contact" style="background-color:#D2DAFF;">
+            </div>
+            
+            <div>
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" style="background-color:#D2DAFF;">
+            </div>
+            
+            <div>
+                <label for="payment_terms">Payment Terms</label>
+                <input type="text" id="payment_terms" name="payment_terms" style="background-color:#D2DAFF;">
+            </div>
+            
+            <div>
+                <label for="credit_limit">Credit Limit</label>
+                <input type="text" id="credit_limit" name="credit_limit" style="background-color:#D2DAFF;">
+            </div>
+        <button style="margin-left: 45%; margin-top: 20px; background-color: #7071e8;">Sign up</button>
+    </form>
+</div> 
+</body>
+</html>
